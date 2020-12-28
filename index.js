@@ -4,7 +4,7 @@ var key = params.get('key');
 $(function () {
     // 送信
     $('form').submit(function () {
-        var reasons = $('textarea[name="mes"]').val();
+        var reasons = $('textarea[name="reasons"]').val();
         // var date = $('input[name="date"]').val();
         // var tool = $('input[name="tool"]').val();
         

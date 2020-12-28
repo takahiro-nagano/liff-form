@@ -26,9 +26,6 @@ function sendText(text) {
 // function sendMessages(text) {
     liff.sendMessages([{
         'type': 'text',
-        'text': "以下の内容でLINE勤怠のアポによる朝礼/終礼不参加の理由を受付けました。"
-    },{
-        'type': 'text',
         'text': text
     },{
         "type": "sticker",

@@ -11,7 +11,7 @@ function initializeLiff(liffId) {
         })
         .then(() => {
           // start to use LIFF's api
-          initializeApp();
+          // initializeApp();
         })
         .catch((err) => {
             console.log('LIFF Initialization failed ', err);
